@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class ChatResponse {
-    Integer userId;
+    String userId;
     String content;
     Boolean latex;
 }
