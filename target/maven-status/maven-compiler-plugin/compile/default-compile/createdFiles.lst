@@ -1,0 +1,12 @@
+com/kinderlit/backend/controller/dto/ChatRequest.class
+com/kinderlit/backend/controller/GenerativeAIController.class
+com/kinderlit/backend/config/DynamoDBConfig.class
+com/kinderlit/backend/config/AIConfig.class
+com/kinderlit/backend/service/GenerativeAIService.class
+com/kinderlit/backend/service/Assistant.class
+com/kinderlit/backend/service/IGenerativeAIService.class
+com/kinderlit/backend/BackendApplication$1.class
+com/kinderlit/backend/entity/Chat.class
+com/kinderlit/backend/BackendApplication.class
+com/kinderlit/backend/repo/ChatsRepository.class
+com/kinderlit/backend/controller/dto/ChatResponse.class
