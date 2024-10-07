@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk-alphine
+FROM eclipse-temurin:17-jdk-alpine
 
 # set arguments var in the container
 ARG AWS_ACCESS_KEY_ID
