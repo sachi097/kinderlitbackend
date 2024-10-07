@@ -20,6 +20,7 @@ public class GenerativeAIService implements IGenerativeAIService {
     public ChatResponse getResponse(Chat chat) {
         chatsRepository.saveChat(chat);
         ChatResponse chatResponse = assistant.getResponse(chat.getUserId(), chat.getContent());
+        chatResponse.setUserId(chat.getUserId());
         Chat assistantResponse = new Chat();
         assistantResponse.setUserId(chat.getUserId());
         assistantResponse.setContent(chatResponse.getContent());
